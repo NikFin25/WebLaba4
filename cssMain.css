@@ -47,6 +47,11 @@ html, body{
    padding: 10px;
    
 }
+#header h1{
+    margin-right: 50%;
+    font-family:'Courier New', Courier, monospace;
+    color: #793698;
+}
 #mainBlock{
     flex: 1 0 auto;
 
