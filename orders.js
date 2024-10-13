@@ -1,4 +1,4 @@
-    document.getElementById('orderForm').addEventListener('submit', function(event) {
+document.getElementById('orderForm').addEventListener('submit', function(event) {
     event.preventDefault();
     const customerName = document.getElementById('customerName').value;
     const orderDescription = document.getElementById('orderDescription').value;
