@@ -3,32 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="cssMain.css" rel="stylesheet">
+    <link href="cssOrders.css" rel="stylesheet">
     <script src="orders.js" defer></script>
     <title>Заказы</title>
 </head>
 <body>
     <div id="mainOrders">
         <div id="header">
-            <div id="iconBlockHeader"></div>
-            <h1>Ателье Стильных Решений</h1>
-            <a href="main.html">О нас</a>
-            <a href="orders.html">Заказы</a>
+            <div class="left">
+                <div id="iconBlockHeader"></div>
+                <h1>Ателье Стильных Решений</h1>
+            </div>
+            <div class="right">
+                <a href="main.html">О нас</a>
+                <a href="orders.html">Заказы</a>
+            </div>
         </div>
 
-        <div id="formBlock">
-            <h2>Создать новый заказ</h2>
-        <form id="orderForm">
-            <label for="customerName">Имя клиента:</label>
-            <input type="text" id="customerName" name="customerName" required><br>
-            <label for="orderDescription">Описание заказа:</label>
-            <textarea id="orderDescription" name="orderDescription" required></textarea><br>
-            <button type="submit">Создать заказ</button>
-        </form>
+        <div id="mainBlock">
+            <div id="formBlock">
+                <h2>Создать новый заказ</h2>
+                <form id="orderForm">
+                <label for="customerName">Имя клиента:</label>
+                <input type="text" id="customerName" name="customerName" required><br>
+                <label for="orderDescription">Описание заказа:</label>
+                <textarea id="orderDescription" name="orderDescription" required></textarea><br>
+                <button type="submit">Создать заказ</button>
+                </form>
+            </div>
+
+            <div id="blockOrders"></div>
         </div>
-
-        <div id="blockOrders"></div>
-
 
         <div id="downBlock">Copyright 2024 WebContent, Inc. Все права защищены.</div>
     </div>
